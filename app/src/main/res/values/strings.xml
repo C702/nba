@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">nba2</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Players</string>
+    <string name="title_dashboard">Teams</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
