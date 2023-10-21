@@ -9,11 +9,11 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.cy.nba2.PlayerItem
 import com.cy.nba2.TeamItem
-import com.cy.nba2.databinding.FragmentHomeBinding
+import com.cy.nba2.databinding.FragmentPlayerBinding
 
 class PlayerFragment : Fragment() {
 
-    private var _binding: FragmentHomeBinding? = null
+    private var _binding: FragmentPlayerBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -27,7 +27,7 @@ class PlayerFragment : Fragment() {
         val homeViewModel =
             ViewModelProvider(this).get(PlayerViewModel::class.java)
 
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        _binding = FragmentPlayerBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textHome
